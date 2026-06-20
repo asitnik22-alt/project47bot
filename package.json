@@ -1,0 +1,17 @@
+{
+  "name": "project47bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Project 47",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "node-cron": "^3.0.3"
+  }
+}
